@@ -7,23 +7,36 @@ import java.util.Scanner;
 //对结果的溢出没有处理，我用浮点数好像怎么样都不会溢出啊
 //异常类我没有写，因为就用到了一次
 //没有参考别的代码，都是自己写的，所以思路可能会有点乱，多多担待
+//可能还有一些我没有发现的bug
 public class Calculator {
+    //简单测试一下
     public static void main(String[] args) {
+        String s1 = "1+1";
+        String s2 = "(2-4)*3/5";
+        String s3 = "(1+2*(3-5))*(2-1)";
+        System.out.println(s1 + "=" + value(brace(s1)));//1+1=2.0
+        System.out.println(s2 + "=" + value(brace(s2)));//(2-4)*3/5=-1.2
+        System.out.println(s3 + "=" + value(brace(s3)));//(1+2*(3-5))*(2-1)=-3.0
+
         Scanner sc = new Scanner(System.in);
         //空格和括号其实可以处理，但是懒了...
         System.out.println("请输入要计算的表达式（不带空格,括号用英文）:");
         String expression = sc.nextLine();
+        check(expression);
+        System.out.print(value(brace(expression)));
+    }
 
+    //检查输入是否合法
+    public static void check(String expression){
         for(int i = 0;i < expression.length();i++){
+            //只能输入数字和指定的运算符
             if(Character.isDigit(expression.charAt(i))||
-            expression.charAt(i) =='+'||
-            expression.charAt(i) =='-'||
-            expression.charAt(i) =='*'||
-            expression.charAt(i) =='/'||
-            expression.charAt(i) =='('||
-            expression.charAt(i) ==')'
-
-
+                    expression.charAt(i) =='+'||
+                    expression.charAt(i) =='-'||
+                    expression.charAt(i) =='*'||
+                    expression.charAt(i) =='/'||
+                    expression.charAt(i) =='('||
+                    expression.charAt(i) ==')'
             ){}else if(expression.charAt(i) =='='){//考虑到用户可能在最后会输入等号，在这里处理一下
                 expression = expression.substring(0,expression.length()-1);
             }else{
@@ -31,8 +44,16 @@ public class Calculator {
             }
         }
 
-        System.out.print(value(brace(expression)));
+        int a = 0,b = 0;
+        for(int i = 0;i < expression.length();i++){
+            if(expression.charAt(i) =='(')a++;
+            if(expression.charAt(i) ==')')b++;
+        }
+
+        if(a != b)throw new RuntimeException("括号数不匹配");
     }
+
+
 
     //递归实现将所有的括号打开，最终返回值为只带加减乘除的算式
     public static String brace(String expression){
@@ -81,7 +102,10 @@ public class Calculator {
                     }
                 }a1++;
                 double a = Double.parseDouble(expression.substring(a1,a2));
-                while (Character.isDigit(expression.charAt(b2))||expression.charAt(b2) == '.'||expression.charAt(b2)=='-'){
+
+                //解决运算符后是负数的问题
+                if(expression.charAt(b2) == '-')b2++;
+                while (Character.isDigit(expression.charAt(b2)) || expression.charAt(b2) == '.' ) {
                     b2++;
                     if(b2 == expression.length()){
                         break;
@@ -104,7 +128,8 @@ public class Calculator {
                     }
                 }a1++;
                 double a = Double.parseDouble(expression.substring(a1,a2));
-                while (Character.isDigit(expression.charAt(b2))||expression.charAt(b2) == '.'||expression.charAt(b2)=='-'){
+                if(expression.charAt(b2) == '-')b2++;
+                while (Character.isDigit(expression.charAt(b2)) || expression.charAt(b2) == '.' ) {
                     b2++;
                     if(b2 == expression.length()){
                         break;
@@ -131,12 +156,13 @@ public class Calculator {
                 }
                 a1++;
                 double a = Double.parseDouble(expression.substring(a1, a2));
-                while (Character.isDigit(expression.charAt(b2)) || expression.charAt(b2) == '.' || expression.charAt(b2) == '-') {
+                if(expression.charAt(b2) == '-')b2++;
+                while (Character.isDigit(expression.charAt(b2)) || expression.charAt(b2) == '.' ) {
                     b2++;
                     if (b2 == expression.length()) {
                         break;
                     }
-                    ;
+
                 }
                 double b = Double.parseDouble(expression.substring(b1, b2));
                 double c = a + b;
@@ -182,7 +208,8 @@ public class Calculator {
                     }
                 }a1++;
                 double a = Double.parseDouble(expression.substring(a1,a2));
-                while (Character.isDigit(expression.charAt(b2))||expression.charAt(b2) == '.'||expression.charAt(b2)=='-'){
+                if(expression.charAt(b2) == '-')b2++;
+                while (Character.isDigit(expression.charAt(b2)) || expression.charAt(b2) == '.' ) {
                     b2++;
                     if(b2 == expression.length()){
                         break;
