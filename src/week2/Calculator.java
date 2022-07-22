@@ -36,7 +36,8 @@ public class Calculator {
                     expression.charAt(i) =='*'||
                     expression.charAt(i) =='/'||
                     expression.charAt(i) =='('||
-                    expression.charAt(i) ==')'
+                    expression.charAt(i) ==')'||
+                    expression.charAt(i) =='.'
             ){}else if(expression.charAt(i) =='='){//考虑到用户可能在最后会输入等号，在这里处理一下
                 expression = expression.substring(0,expression.length()-1);
             }else{
