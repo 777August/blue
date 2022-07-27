@@ -81,7 +81,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
     }
 
-    //移动和射击
+    //移动和射击，移动有边界
     @Override
     public void keyPressed(KeyEvent e) {
         if (e.getKeyChar() == 'w') {
@@ -136,7 +136,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
             //自动生成敌人
             if ((count % 40000000 == 0 || count == 1)&&myPlane.getIsAlive()) {
-                Enemy e = new Enemy(r.nextInt(400) - 50, 0);
+                Enemy e = new Enemy(r.nextInt(400) - 50, 30);
                 new Thread(e).start();
                 enemies.add(e);
             }
@@ -145,7 +145,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             if (!enemies.isEmpty()) {
                 for (int i = 0; i < enemies.size(); i++) {
                     Enemy enemy = enemies.get(i);
-                    if (count % 4000000 == 0 && enemy.getIsAlive()) {
+                    if (count % 6000000 == 0 && enemy.getIsAlive()) {
                         enemy.shootHero();
                     }
                 }
