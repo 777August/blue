@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSLab/DSLab.iml" filepath="$PROJECT_DIR$/DSLab/DSLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSproject/DSproject.iml" filepath="$PROJECT_DIR$/DSproject/DSproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/test1.iml" filepath="$PROJECT_DIR$/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/test2/test2.iml" filepath="$PROJECT_DIR$/src/test2/test2.iml" />
     </modules>
