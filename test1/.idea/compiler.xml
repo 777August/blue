@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14">
+      <module name="fox" target="7" />
       <module name="maven-test" target="1.7" />
     </bytecodeTargetLevel>
   </component>

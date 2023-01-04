@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="test1" />
+    </loaded-modules>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e8ff692-b7df-4955-b5d2-e06fba6aa865" name="Default Changelist" comment="maven-test">
+      <change afterPath="$PROJECT_DIR$/../maven-test/src/main/java/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-test/src/main/java/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-test/src/main/java/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-test/src/main/java/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-test/src/main/java/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-test/maven-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven-test/maven-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-test/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-test/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BjPXT5qe4LqcnWfi3RlUjRAifG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DSlab" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\project\fox\src\main\java\org\example" />
+      <recent name="D:\idea\project\fox\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\project\test1\src" />
+      <recent name="D:\idea\project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.app">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="maven-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../maven-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app" />
+      <module name="fox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app" />
+      <module name="maven-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1_1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1_1.test1_1_1" />
+      <module name="test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="fox" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="fox" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.app" />
+        <item itemvalue="Application.app (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.test1_1_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e8ff692-b7df-4955-b5d2-e06fba6aa865" name="Default Changelist" comment="" />
+      <created>1657416560322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657416560322</updated>
+      <workItem from="1657416562618" duration="93000" />
+      <workItem from="1657444938223" duration="634000" />
+      <workItem from="1657502416087" duration="803000" />
+      <workItem from="1657505299342" duration="11651000" />
+      <workItem from="1657895410944" duration="668000" />
+      <workItem from="1657936643144" duration="207000" />
+      <workItem from="1657937136673" duration="2831000" />
+      <workItem from="1657987648850" duration="533000" />
+      <workItem from="1657988197478" duration="401000" />
+      <workItem from="1658111464142" duration="12914000" />
+      <workItem from="1658138579175" duration="1293000" />
+      <workItem from="1658140098027" duration="916000" />
+      <workItem from="1658146067701" duration="1153000" />
+      <workItem from="1658147787992" duration="5937000" />
+      <workItem from="1658157397736" duration="3403000" />
+      <workItem from="1658197648893" duration="2372000" />
+      <workItem from="1658286214838" duration="2919000" />
+      <workItem from="1658311247138" duration="14170000" />
+      <workItem from="1658365231914" duration="6550000" />
+      <workItem from="1658394415367" duration="167000" />
+      <workItem from="1658488919793" duration="720000" />
+      <workItem from="1658541458494" duration="141000" />
+      <workItem from="1658750545935" duration="10713000" />
+      <workItem from="1658820298377" duration="33411000" />
+      <workItem from="1658917553242" duration="190000" />
+      <workItem from="1658917868644" duration="557000" />
+      <workItem from="1658923998359" duration="84000" />
+      <workItem from="1658988256550" duration="54000" />
+      <workItem from="1658995786332" duration="1023000" />
+      <workItem from="1659616564178" duration="549000" />
+      <workItem from="1659685343236" duration="1138000" />
+      <workItem from="1660439494837" duration="648000" />
+      <workItem from="1660489367660" duration="3674000" />
+      <workItem from="1660496583608" duration="214000" />
+      <workItem from="1660528375343" duration="3419000" />
+      <workItem from="1660532401749" duration="838000" />
+      <workItem from="1660533262498" duration="1517000" />
+      <workItem from="1660535454354" duration="1612000" />
+      <workItem from="1660538905801" duration="325000" />
+      <workItem from="1660539312461" duration="850000" />
+      <workItem from="1660540176994" duration="1027000" />
+      <workItem from="1660541472814" duration="343000" />
+      <workItem from="1660549216237" duration="1657000" />
+      <workItem from="1660620500140" duration="5121000" />
+      <workItem from="1660664551517" duration="899000" />
+      <workItem from="1660665467464" duration="100000" />
+      <workItem from="1660701699069" duration="328000" />
+      <workItem from="1660728946545" duration="602000" />
+      <workItem from="1664246688663" duration="129000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次作业">
+      <created>1657518180876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657518180877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试下idea连接GitHub是否成功">
+      <created>1657987941378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657987941379</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交计算器类">
+      <created>1658160758333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658160758333</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改计算器类">
+      <created>1658199798576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658199798576</updated>
+    </task>
+    <task id="LOCAL-00005" summary="双向链表">
+      <created>1658330927212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658330927212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="自然数的拆分">
+      <created>1658394188201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658394188201</updated>
+    </task>
+    <task id="LOCAL-00007" summary="自然数的拆分">
+      <created>1658394522123</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658394522123</updated>
+    </task>
+    <task id="LOCAL-00008" summary="计算器类浮点数运算小bug修改">
+      <created>1658489135684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658489135684</updated>
+    </task>
+    <task id="LOCAL-00009" summary="买票耗时">
+      <created>1658762590072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658762590072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="请求计数器">
+      <created>1658762624492</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658762624492</updated>
+    </task>
+    <task id="LOCAL-00011" summary="动物收容所">
+      <created>1658764648140</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658764648140</updated>
+    </task>
+    <task id="LOCAL-00012" summary="非常粗糙的雷霆战机">
+      <created>1658909173879</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658909173879</updated>
+    </task>
+    <task id="LOCAL-00013" summary="实现了敌机出现后悬停一下">
+      <created>1658918398756</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658918398756</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mysql作业">
+      <created>1659686459526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659686459527</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Maven测试项目">
+      <created>1660495184872</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660495184872</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Maven测试项目">
+      <created>1660495747475</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660495747475</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Maven测试项目">
+      <created>1660496597106</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660496597106</updated>
+    </task>
+    <task id="LOCAL-00018" summary="乱套了QAQ">
+      <created>1660532495175</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660532495175</updated>
+    </task>
+    <task id="LOCAL-00019" summary="乱套了QAQ">
+      <created>1660532711208</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660532711208</updated>
+    </task>
+    <task id="LOCAL-00020" summary="乱套了QAQ">
+      <created>1660532797035</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660532797035</updated>
+    </task>
+    <task id="LOCAL-00021" summary="改个名字">
+      <created>1660533330068</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660533330068</updated>
+    </task>
+    <task id="LOCAL-00022" summary="好乱">
+      <created>1660539345460</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660539345460</updated>
+    </task>
+    <task id="LOCAL-00023" summary="maven-test">
+      <created>1660539862550</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1660539862550</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="第一次作业" />
+    <MESSAGE value="测试下idea连接GitHub是否成功" />
+    <MESSAGE value="提交计算器类" />
+    <MESSAGE value="修改计算器类" />
+    <MESSAGE value="双向链表" />
+    <MESSAGE value="自然数的拆分" />
+    <MESSAGE value="计算器类浮点数运算小bug修改" />
+    <MESSAGE value="买票耗时" />
+    <MESSAGE value="请求计数器" />
+    <MESSAGE value="动物收容所" />
+    <MESSAGE value="非常粗糙的雷霆战机" />
+    <MESSAGE value="实现了敌机出现后悬停一下" />
+    <MESSAGE value="mysql作业" />
+    <MESSAGE value="Maven测试项目" />
+    <MESSAGE value="乱套了QAQ" />
+    <MESSAGE value="改个名字" />
+    <MESSAGE value="好乱" />
+    <MESSAGE value="maven-test" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven-test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="63" key="#App" timestamp="1660549617068">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="425" y="63" key="#App/0.0.1493.893@0.0.1493.893" timestamp="1660549617068" />
+    <state x="332" y="63" key="#AppTest" timestamp="1660539805705">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="332" y="63" key="#AppTest/0.0.1493.893@0.0.1493.893" timestamp="1660539805705" />
+    <state x="631" y="309" key="#Notifications" timestamp="1660664606749">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="631" y="309" key="#Notifications/0.0.1493.893@0.0.1493.893" timestamp="1660664606749" />
+    <state x="227" y="21" key="#Project_Structure" timestamp="1660538338360">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="227" y="21" key="#Project_Structure/0.0.1493.893@0.0.1493.893" timestamp="1660538338360" />
+    <state x="140" y="289" key="#SQL_Dialects" timestamp="1659685497063">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="140" y="289" key="#SQL_Dialects/0.0.1493.893@0.0.1493.893" timestamp="1659685497063" />
+    <state x="340" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1659686126710">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="340" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1493.893@0.0.1493.893" timestamp="1659686126710" />
+    <state x="505" y="248" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1659685397390">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="505" y="248" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1493.893@0.0.1493.893" timestamp="1659685397390" />
+    <state x="528" y="152" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1660535566518">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="528" y="152" key="#com.intellij.ide.macro.MacrosDialog/0.0.1493.893@0.0.1493.893" timestamp="1660535566518" />
+    <state x="827" y="122" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1657988572516">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="827" y="122" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1493.893@0.0.1493.893" timestamp="1657988572516" />
+    <state x="409" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1660642661011">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="409" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1493.893@0.0.1493.893" timestamp="1660642661011" />
+    <state x="491" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1660496176850">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="491" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1493.893@0.0.1493.893" timestamp="1660496176850" />
+    <state x="143" y="72" key="DiffContextDialog" timestamp="1660496626068">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="143" y="72" key="DiffContextDialog/0.0.1493.893@0.0.1493.893" timestamp="1660496626068" />
+    <state x="528" y="202" key="FileChooserDialogImpl" timestamp="1664246816868">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="528" y="202" key="FileChooserDialogImpl/0.0.1493.893@0.0.1493.893" timestamp="1664246816868" />
+    <state x="561" y="366" key="Github.CreateGistDialog" timestamp="1660530777191">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="561" y="366" key="Github.CreateGistDialog/0.0.1493.893@0.0.1493.893" timestamp="1660530777191" />
+    <state width="1450" height="219" key="GridCell.Tab.0.bottom" timestamp="1660665567820">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="219" key="GridCell.Tab.0.bottom/0.0.1493.893@0.0.1493.893" timestamp="1660665567820" />
+    <state width="1450" height="219" key="GridCell.Tab.0.center" timestamp="1660665567820">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="219" key="GridCell.Tab.0.center/0.0.1493.893@0.0.1493.893" timestamp="1660665567820" />
+    <state width="1450" height="219" key="GridCell.Tab.0.left" timestamp="1660665567820">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="219" key="GridCell.Tab.0.left/0.0.1493.893@0.0.1493.893" timestamp="1660665567820" />
+    <state width="1450" height="219" key="GridCell.Tab.0.right" timestamp="1660665567820">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="219" key="GridCell.Tab.0.right/0.0.1493.893@0.0.1493.893" timestamp="1660665567820" />
+    <state width="1450" height="289" key="GridCell.Tab.1.bottom" timestamp="1658764798043">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.bottom/0.0.1493.893@0.0.1493.893" timestamp="1658764798043" />
+    <state width="1450" height="289" key="GridCell.Tab.1.center" timestamp="1658764798043">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.center/0.0.1493.893@0.0.1493.893" timestamp="1658764798043" />
+    <state width="1450" height="289" key="GridCell.Tab.1.left" timestamp="1658764798043">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.left/0.0.1493.893@0.0.1493.893" timestamp="1658764798043" />
+    <state width="1450" height="289" key="GridCell.Tab.1.right" timestamp="1658764798043">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state width="1450" height="289" key="GridCell.Tab.1.right/0.0.1493.893@0.0.1493.893" timestamp="1658764798043" />
+    <state x="311" y="43" key="SettingsEditor" timestamp="1664246774518">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="311" y="43" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1664246774518" />
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2" timestamp="1660540183151">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="340" y="180" key="Vcs.Push.Dialog.v2/0.0.1493.893@0.0.1493.893" timestamp="1660540183151" />
+    <state x="357" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1658148049972">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="357" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1493.893@0.0.1493.893" timestamp="1658148049972" />
+    <state x="545" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1660495572305">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="545" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1493.893@0.0.1493.893" timestamp="1660495572305" />
+    <state x="135" y="57" key="new project wizard" timestamp="1664246745595">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="135" y="57" key="new project wizard/0.0.1493.893@0.0.1493.893" timestamp="1664246745595" />
+    <state x="404" y="204" key="run.anything.popup" timestamp="1658374555103">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="404" y="204" key="run.anything.popup/0.0.1493.893@0.0.1493.893" timestamp="1658374555103" />
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1660639921392">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1493.893@0.0.1493.893" timestamp="1660639921392" />
+  </component>
+</project>
